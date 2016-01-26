@@ -1,0 +1,45 @@
+
+.logistica h4{
+	text-transform: uppercase;
+}
+.informa{
+	background-color: #f7b617;
+	width: 183px;
+	height: 66px;
+	padding-top: 2%;
+}
+.informa h4{
+	text-align: center;
+	color: white;
+}
+.media-body{
+	width: 419px;
+}
+.border{
+	border: 1px solid #ececec;
+	padding: 2% 5% 1%;
+}
+.border p{
+	font-size: 15px;	
+}
+.form{
+	background-image: url(../interna_uX/form.png);
+}
+textarea#id123-control15663437{
+	border-radius: 5px;
+}
+.text-white{
+	color: white;
+}
+.text-center{
+	text-align: center;
+}
+p{
+	color: #454545;
+}
+.pd-t{
+	padding-top: 5%;
+}
+.mg-5{
+	margin-top: 5%;
+}

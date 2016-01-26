@@ -1,0 +1,659 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+body {
+  overflow-x: hidden;
+}
+header{
+	background-image: url(../img/fondo_hero.png);
+	width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+header div.logo{
+	background: #2b2b2b;
+	width: 100%;
+	height: 80px;
+}
+
+header div.logo img{
+	margin: 0 auto;
+	padding: 2%;
+}
+
+header .content-text{
+	padding-top: 10%;
+}
+
+header .content-text h4,
+header .content-text h2{
+	text-transform: uppercase;
+}
+
+header .content-text h4{
+	font-size: 0.875em;
+	line-height: 1.625em;
+	letter-spacing: 1.6px;
+	font-weight: 700;
+}
+
+header .content-text h2{
+	font-size: 5em;
+	line-height: 1em;
+	font-weight: 700;
+	margin-top: 3%;
+} 
+
+hr.large{
+	border-top: 2px #f7b617 solid;
+	width: 6.6875em;
+	margin-top: 0%;
+}
+
+header .content-text p{
+	font-weight: 300;
+	font-size: 1.5em;
+	line-height: 27px;
+	padding: 2% 6%;
+}
+
+header button.orange{
+    box-shadow: 5px 5px 5px 5px;
+    -moz-box-shadow: 0px 5px 0px 0px #f7b617;
+    -webkit-box-shadow: 0px 5px 0px 0px #f7b617;
+    box-shadow: 0px 5px 0px 0px #dca215;
+    background-color: #f7b617;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #f7b617;
+    display: inline-block;
+    color: #fff;
+    padding: 1% 4%;
+    text-decoration: none;
+    margin: 2%;
+}
+
+section.cursos h2{
+	color: #2b2b2b;
+	font-size: 1.875em;
+	font-weight: 100;
+	margin-top: 7%;
+}
+
+section.cursos img{
+	margin: 26% auto;
+	margin-bottom: 3%;
+}
+
+section.cursos h3{
+	font-size: 1.25em;
+	padding-top: 15%;
+	color: #454545;
+}
+
+section.cursos h3.up{
+  padding: 3% 18%;
+}
+section.cursos p{
+	font-size: 1em;
+	color: #454545;
+	font-weight: 100;
+	padding: 0 3%;
+}
+
+section.cursos div.col-sm-4:nth-child(1) p,
+section.cursos div.col-sm-4:nth-child(3) p{
+  margin-top: 11.5%;
+}
+section.cursos h6{
+  color: #F7B617;
+  border: 1px solid #F7B617;
+  border-radius: 2px;
+  margin: 13% 22%;
+  padding: 4% 0;
+}
+section.cursos a{
+	text-decoration: none;
+}
+
+section.benefits div.container-fluid div.row:nth-child(1),
+section.benefits div.container-fluid div.row:nth-child(3){
+	background-color: #fafafa;
+}
+
+section.benefits .row{
+	padding: 7% 0;
+}
+section.benefits h4,
+section.testimonial h4{
+	font-size: 1em;
+	letter-spacing: 1.6px;
+	color: #2b2b2b;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+section.benefits h2,
+section.testimonial h2{
+	font-size: 2.5em;
+	color: #454545;
+	line-height: 1.5em;
+}
+
+section.benefits p{
+	font-size: 1.125em;
+	line-height: 29px;
+}
+
+section.benefits img{
+  margin: 32% 0; 
+}
+
+section.benefits hr.small-left{
+	width: 49px;
+  margin: -8px 0 5%;
+  border-top: 1px #f7b617 solid;
+}
+
+section.benefits hr.small-right{
+	width: 49px;
+  margin: -8px 0 5% 89%;
+  border-top: 1px #f7b617 solid;	
+}
+section.testimonial{
+	margin-top: 7%;
+}
+section.testimonial p{
+	font-size: 1.125em;
+  line-height: 29px;
+  font-weight: 100;
+  margin: 3% 0 10%;
+}
+
+.carousel{
+	    margin-top: 3%;
+}
+.carousel-indicators li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #d8d8d8;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+}
+.carousel-indicators{
+	position: relative !important;
+	top: 5px;
+	padding: 3% 0;
+}
+.carousel-indicators .active{
+	background-color: #d8d8d8;
+}
+.carousel-inner h4{
+	margin-bottom: 5%;
+
+}
+
+section.testimonial div.carousel p{
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: 100;
+	margin: 9% 0;
+}
+
+section.testimonial div.carousel h4{
+	color: #0f0f0f;
+	font-size: 1em;
+	text-transform: none;
+}
+
+/*footer*/
+.footer2 {
+	background-color:#2f2f2f;
+	color: #fff; 
+}
+footer.bg-black{
+	background-color:#2f2f2f;
+	color: #fff; 
+  margin-top: 67%;
+}
+.p5{
+	padding: 5%;
+	padding-left: 20%;
+}
+.pd-5{
+	padding: 6% 12%;
+}
+.mb-5{
+	margin-bottom: 7%;
+}
+.mb-3{
+   margin-bottom:5%;
+}
+
+footer h6 {
+    line-height: 24px;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+footer p{
+    font-size: 1.125em;
+    line-height: 24px;
+}
+footer img{
+	margin-right: 3%;
+}
+.contact-link:hover{
+	background-color:#F9A91A;
+}
+
+/* interno ux*/
+header.hero-ux{
+    background-image: url(../img/interna_uX/fondo_perfil.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header .buttons {
+	border-radius: 2px;
+	cursor:pointer;
+	font-size:1.25em;
+	text-decoration:none;
+}
+
+header div.buttons a:first-child {
+    box-shadow: 5px 5px 5px 5px;
+    -moz-box-shadow: 0px 5px 0px 0px #ececec;
+    -webkit-box-shadow: 0px 5px 0px 0px #ececec;
+    box-shadow: 0px 5px 0px 0px lightgray;
+    background-color: #ececec;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #ececec;
+    display: inline-block;
+    color: #2b2b2b;
+    padding: 1% 6%;
+    text-decoration: none;
+    margin: 0 3% 0% 0%;
+}
+
+header div.buttons a:nth-child(2){
+    box-shadow: 5px 5px 5px 5px;
+    -moz-box-shadow: 0px 5px 0px 0px #f7b617;
+    -webkit-box-shadow: 0px 5px 0px 0px #f7b617;
+    box-shadow: 0px 5px 0px 0px #E4A506;
+    background-color: #f7b617;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #f7b617;
+    display: inline-block;
+    color: #fff;
+    padding: 1% 3%;
+    text-decoration: none;
+    margin: 0%;
+}
+header div.buttons a:nth-child(2):hover,
+button.orange:hover{
+	background-color: #f7b617;
+  color: #f7f7f7;
+  border-color: #f9a30b;
+  transition: ease-in-out all 0.5s;
+}
+
+section.tools{
+	padding: 6% 0%;
+}
+
+section.tools div:first-child h3{
+	font-size: 1.875em;
+	color: #2b2b2b;
+}
+
+
+section.tools div:nth-child(2) p{
+	color: #000;
+	font-size: 1.125em;
+	padding-bottom: 6%;
+}
+
+section.tools div:nth-child(2) .row img{
+	padding-top: 35%;
+}
+section.tools div:nth-child(2) .row h4{ 
+	color: #454545;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+section.tools div:nth-child(2) .row p{
+	color: #000000;
+	font-size: 0.93em;
+}
+#cursos{
+	padding-bottom: 6%;
+}
+#cursos h2{
+	color: #2b2b2b;
+	font-size: 30px;
+	text-align: center;
+	line-height: 44px;
+}
+#cursos .product{
+	height: 57%;
+}
+#cursos img{
+	margin: 0% auto;
+	margin-bottom: 3%;
+}
+#cursos h3{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 15%;
+	margin: 0;
+}
+#cursos  p{
+	font-size: 15px;
+	color: #454545;
+	text-align: center;
+	font-weight: 100;
+}
+#cursos h6{
+	color: #F7B617;
+	padding: 3%;
+	border:1px solid #F7B617;
+	border-radius: 2px;
+	text-align: center;
+	margin: 0 auto;
+	width: 150px;
+	padding: 4%;
+	margin-top: 5%;
+}
+#cursos .margen{
+	margin: 12% auto;
+}
+#cursos .margen-js{
+	margin: 20% auto;
+}
+#cursos a{
+	text-decoration: none;
+}
+#cursos .row{
+	margin-top: 5%;
+}
+#cursos .product{
+	height: 66.5px;
+}
+.bg-gray{
+	background-color: #f1f1f1;
+}
+
+.crear h4{
+	font-size: 40px;
+	line-height: 50px;
+}
+.crear h5{
+	font-size: 18px;
+	line-height: 29px;
+	margin-bottom: 5%; 
+}
+.crear img{
+	margin-right: 5%;
+	width: 65%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+.ray{
+	width: 30px;
+	border: solid 1px #F9A91A;
+	margin-left: 0%;
+}
+/*image-hero*/
+.hero{
+	background-image: url("../img/interna_uX/testimonio.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.hero h4{
+	font-size: 30px;
+	line-height: 35px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #fff;
+}
+.hero h6{
+	font-size: 16px;
+	color: #f7b617;
+}
+.line{
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+
+#plan-cursos h2{
+	color: #454545;
+	font-weight: 200;
+	margin: 25% 0 8%;
+}
+#plan-cursos hr{
+	width: 10%;
+	border-top:1px solid #f7b617;
+	margin: 0;
+}
+#plan-cursos .img-responsive{
+	margin: 0;
+}
+#plan-cursos .intro{
+	background-color: #f7b617;
+	padding : 26%;
+	width: 100%;
+}
+#plan-cursos .intro img{
+	margin: 0 auto;
+}
+#plan-cursos .necesidad{
+	background-color: #f7b617;
+	padding: 40%;
+	width: 100%;
+}
+#plan-cursos .necesidad img{
+	margin: 0 auto;
+}
+#plan-cursos .guia{
+	background-color: #f7b617;
+	padding: 37%;
+	width: 100%;
+}
+#plan-cursos .guia img{
+	margin: 0 auto;
+}
+#plan-cursos .descubrir{
+	background-color: #f7b617;
+	padding: 37%;
+	width: 100%;
+}
+#plan-cursos .descubrir img{
+	margin: 0 auto;
+}
+#plan-cursos .proyecto{
+	background-color: #f7b617;
+	padding: 40%;
+	width: 100%;
+}
+#plan-cursos .proyecto img{
+	margin: 0 auto;
+}
+#plan-cursos h3{
+	font-size: 14px;
+	line-height: 26px;
+	color: #2b2b2b;
+	margin: 0;
+	font-weight:800;
+}
+#plan-cursos li{
+	font-size: 1em;
+}
+#plan-cursos {
+	padding-bottom: 10%;
+}
+.box{
+	 background-color: #f9f9f9;
+	 width: 100%;
+    height: 100%;
+}
+#plan-cursos .content-uno{
+    padding: 4.8%;
+}
+#plan-cursos .content-tres{
+	padding: 5.8%;
+}
+#plan-cursos .text{
+	padding: 2.3%;
+}
+#plan-cursos .text-two{
+	padding: 2.5%;
+}
+#plan-cursos .project{
+	padding: 6.5%;
+}
+#plan-cursos .row{
+	margin-top: 3%;
+}
+#plan-cursos .col-md-4{
+	margin: 0;
+}
+#instructores{
+	background-color: #fafafa;
+	padding:5%;
+}
+#instructores h4{
+	padding-left: 12%;
+	padding-right: 18%;
+}
+#instructores p{
+	font-size: 40px;
+	padding-left: 12%;
+	padding-right: 18%;
+	color: #454545;
+}
+#instructores hr{
+	width: 10%;
+	border-top:1px solid #f7b617;
+	    margin-left: 12%;
+}
+#instructores .img-responsive{
+	margin: 0 auto;
+}
+#instructores .row h4{
+	font-size: 15px;
+	color: #0f0f0f;
+	text-align: center;
+	font-weight: 700;
+}
+#instructores h5{
+	font-size: 15px;
+	color: #8c8c8c;
+	text-align: center;
+}
+#instructores .row{
+	padding-left: 9%;
+	padding-right: 25%;
+	padding-top: 3%;
+}
+.logistica{
+	padding-left: 20%;
+}
+.logistica h4{
+	text-transform: uppercase;
+}
+.informa{
+	background-color: #f7b617;
+	width: 183px;
+	height: 66px;
+	padding-top: 2%;
+	float: left;
+}
+.informa h4{
+	color: white;
+}
+.media-body{
+	width: 419px;
+}
+.border{
+	border: 1px solid #ececec;
+	padding: 2% 5% 0%;
+}
+.border p{
+	font-size: 15px;	
+}
+.form{
+	background-image: url(../interna_uX/form.png);
+}
+textarea#id123-control15663437{
+	border-radius: 5px;
+}
+.text-white{
+	color: white;
+}
+.text-center{
+	text-align: center;
+}
+.pd-t{
+	padding-top: 5%;
+}
+.pd-b{
+	padding-bottom: 5%;
+}
+.mg-5{
+	margin-top: 5%;
+}
+form.form{
+	background-image: url(../img/interna_uX/form.png);
+	background-size: cover;
+}
+form input{
+	display: block;
+	margin: 1% auto;
+	width: 40%;
+	padding: 1% 2%;
+	background-color: white;
+	border: none;
+	border-radius: 6px;
+}
+form h3{
+	padding: 3% 0% 0%;
+	text-transform: uppercase;
+	color: white;
+}
+form button{
+	background-color: #f7b617;
+	padding: 1% 4%;
+	border: none;
+	border-radius: 6px;
+	margin: 3% 0%;
+}
+form.form-fixed.pull-right{
+	background-color: #686868;
+	border-radius: 6px;
+	padding: 2% 0% 5%;
+	margin: 5% 3% 0% 0%;
+}
+form.form-fixed.pull-right input{
+	width: 100%;
+	margin: 2% 0%;
+	padding: 3% 2%;
+
+}
